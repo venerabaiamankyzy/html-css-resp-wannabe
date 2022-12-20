@@ -143,7 +143,6 @@ img {
     } 
     
     .lessons .col, 
-    img,
     .steps .col, 
     .why-us .col {
         width: 100%;
@@ -189,14 +188,13 @@ img {
     .row {
         justify-content: space-around;
         align-items: center;
-        width: 100%;
     }
 
-    .lessons .col,
+    /* .lessons .col,
     .steps .col,
     img {
         width: 100%;
-    }
+    } */
 
     /* h1 {
         margin-bottom: 3rem;
