@@ -179,15 +179,14 @@ img {
 
 /* TABLET */
 
-@media screen and (max-width: 768px) and (min-width:481px) {
+@media screen and (max-width: 768px) {
 
-    .container {
+    /* .container {
         width: 700px;
-    }
+    } */
 
     .row {
         justify-content: space-around;
-        align-items: center;
     }
 
    
@@ -215,3 +214,10 @@ img {
     }  */
 
 }
+
+    @media screen and (min-width: 481px) and (max-width: 1160px) {
+    .container {
+        width: 100%;
+    }
+}
+
